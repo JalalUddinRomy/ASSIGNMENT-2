@@ -1,0 +1,265 @@
+/* font----------------- */
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Gentium+Book+Plus:ital@1&family=Lobster&family=Poppins:ital,wght@0,400;1,500&family=Splash&display=swap');
+
+/* top-banner-style ----------------------------------------*/
+.container {
+    font-family: 'Dancing Script', cursive;
+}
+
+
+.top-banner {
+    display: flex;
+    background-color: #161616;
+    width: 1221px;
+    height: 480px;
+    margin: 50px auto;
+    border-radius: 15px;
+}
+
+
+
+
+.text-info {
+    width: 50%;
+    padding-left: 106px;
+    color: #FFFFFF;
+    padding-bottom: 20px;
+}
+
+.top-image img {
+    padding-top: 20px;
+    width: 430px;
+    height: 460px;
+
+
+}
+
+#top-text {
+    font-weight: 700;
+    font-size: 70px;
+
+}
+
+.watch-button {
+    background-color: #DD0000;
+    width: 140px;
+    height: 45px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    font-weight: 600;
+    color: #FFFFFF;
+    align-items: center;
+    margin-top: 30px;
+
+}
+
+.fa-greater-than {
+    padding-left: 10px;
+}
+
+/* header-style-end-------------------------------------- */
+/* nav style----------------------------
+------------------------------- */
+.navigation {
+    display: flex;
+    flex-direction: column;
+    max-width: 250px;
+    min-width: 250px;
+    height: 250px;
+    background-color: black;
+    border-radius: 10px;
+    margin-right: 10px;
+
+
+}
+
+.navigation button {
+    height: 100px;
+    margin: 14px 25px;
+    font-size: 1em;
+    font-weight: 800;
+    border: none;
+    border-radius: 5px;
+
+}
+
+#link {
+    text-decoration: none;
+    color: #161616;
+}
+
+#blogs {
+    color: #FFFFFF;
+    background-color: #DD0000;
+}
+
+.flag {
+    display: flex;
+
+}
+
+.flag img {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.match {
+    background-color: whitesmoke;
+    width: 250px;
+    height: 160px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.match-details {
+    text-align: center;
+}
+
+.match-time {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 14px;
+    grid-column-gap: 14px;
+}
+
+.main {
+    display: flex;
+    margin: 50px 55px;
+
+
+}
+
+/* footer--------------------------------------------- */
+.goal {
+    height: 444px;
+    background-color: black;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.goal h1 {
+    color: #FFFFFF;
+    text-align: center;
+    padding-top: 130px;
+
+}
+
+.footer-text {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 140px;
+    margin-right: 140px;
+}
+
+.footer-text p {
+    color: #FFFFFF;
+    margin-right: 20px;
+
+}
+
+hr {
+    margin-left: 40px;
+    margin-right: 40px;
+
+}
+
+.social-icon {
+    display: flex;
+    color: #FFFFFF;
+    justify-content: center;
+
+}
+
+.social-media {
+    font-size: 30px;
+    margin-left: 40px;
+    margin-top: 100px;
+}
+
+/*-----------------------------------
+ for tablet
+ ------------------------------------ */
+@media only screen and (min-width:688px) and (max-width: 992px) {
+    .top-banner {
+        width: 100%;
+    }
+
+    #top-text {
+        font-size: 50px;
+    }
+
+    .navigation {
+        flex-direction: column;
+        background: none;
+        width: 50%;
+
+
+    }
+
+    .navigation button {
+        height: 60px;
+        width: 230px;
+        margin: 5px auto;
+
+    }
+
+    .main {
+        flex-direction: column;
+        margin: 0%;
+
+
+    }
+
+    .match-time {
+        grid-template-columns: repeat(2, 1fr);
+        margin: 20px 80px;
+    }
+
+}
+
+/*-----------------------
+ for-mobile------
+ ------------------------------ */
+@media only screen and (max-width:688px) {
+    .top-banner {
+        width: 100%;
+    }
+
+    #top-text {
+        font-size: 40px;
+    }
+
+    .top-banner {
+        flex-direction: column;
+        height: 100%;
+    }
+
+    .top-image img {
+        width: 100%;
+    }
+
+    .main {
+        flex-direction: column;
+        margin: 0%;
+    }
+
+    .match-time {
+        grid-template-columns: repeat(1, 1fr);
+        margin: 20px auto;
+
+
+    }
+
+    .footer-text {
+        flex-direction: column;
+        align-items: center;
+
+
+    }
+
+    .goal {
+        height: 100%;
+    }
+
+}
